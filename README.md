@@ -1,6 +1,6 @@
 # about-me
 
-## Lab 02
+## Lab 03
 
 ### Author: Timothee Odushina
 
