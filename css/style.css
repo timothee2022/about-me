@@ -1,1 +1,24 @@
-body{background-color: rgb(255, 127, 223);}
+body {
+  background-color: lightblue;
+  margin: ;
+  padding: ;
+}
+
+img {
+  width: 240px;
+  border-radius: px;
+  float: left;
+  margin-right: 50px;
+}
+
+;
+
+ul {
+  list-style-type: "square";
+  list-style-position: inside;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
