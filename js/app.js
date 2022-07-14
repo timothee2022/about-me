@@ -1,4 +1,5 @@
 'use strict'
+let score = '0'
 
 //console.log('hvbhbhbhbhb');
 
@@ -87,10 +88,13 @@ for (let i = 0; i < userAttempt; i++) {
   if (userFruitsGuess == fruits[0] || userFruitsGuess == fruits[1] || userFruitsGuess == fruits[2]) {
     alert(`Congratulations! You are right`);
     break;
+    score++;
   }
   else {
     alert(`Guess again`);
     userFruitsGuess = prompt(`Guess one of my favorites fruits?`).toLowerCase();
   }
-};
+}
+alert(`These are my favorites fruits ${fruits}`);
+alert(`Your score is ${score} out of 1`)
 
