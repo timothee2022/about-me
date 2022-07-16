@@ -1,16 +1,18 @@
 body {
-  background-color: lightblue;
-  margin: ;
-  padding: ;
+  background-color: lightgray;
+  margin-left: 100px;
+  margin-right: 200px;
+  padding: 20px;
+  font-size: 23px;
 }
 
 img {
-  width: 240px;
-  border-radius: px;
-  float: left;
-  margin-right: 50px;
+width: 550px;
+border-radius: 10px;
+float: left;
+margin-right: 50px;
+border: 5px solid rgb(129, 7, 7);
 }
-
 ;
 
 ul {
@@ -21,4 +23,42 @@ ul {
 ol {
   list-style-type: decimal;
   list-style-position: inside;
+}
+
+h1{
+  font-size: 3vw;
+  padding: 20px
+  ;
+}
+
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 20px
+}
+
+p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 20px;
+  ;
+}
+
+ul {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 5px;
+  list-style-type: square;
+  
+}
+
+ol {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: ;
+}
+
+p2 {
+  font-weight: bold;
+  
+}
+
+li.a {
+  
 }
